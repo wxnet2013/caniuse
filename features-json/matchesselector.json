@@ -54,7 +54,11 @@
       "20":"a x",
       "21":"a x",
       "22":"a x",
-      "23":"a x"
+      "23":"a x",
+      "24":"a x",
+      "25":"a x",
+      "26":"a x",
+      "27":"a x"
     },
     "chrome":{
       "4":"a x",
@@ -82,7 +86,10 @@
       "26":"a x",
       "27":"a x",
       "28":"a x",
-      "29":"a x"
+      "29":"a x",
+      "30":"a x",
+      "31":"a x",
+      "32":"a x"
     },
     "safari":{
       "3.1":"n",
@@ -91,6 +98,7 @@
       "5":"a x",
       "5.1":"a x",
       "6":"a x",
+      "6.1":"a x",
       "7":"a x"
     },
     "opera":{
@@ -105,7 +113,10 @@
       "11.6":"a x",
       "12":"a x",
       "12.1":"a x",
-      "15":"a x"
+      "15":"a x",
+      "16":"a x",
+      "17":"a x",
+      "18":"a x"
     },
     "ios_saf":{
       "3.2":"n",
@@ -125,7 +136,8 @@
       "3":"a x",
       "4":"a x",
       "4.1":"a x",
-      "4.2":"a x"
+      "4.2-4.3":"a x",
+      "4.4":"a x"
     },
     "bb":{
       "7":"a x",
@@ -138,18 +150,21 @@
       "11.5":"a x",
       "12":"a x",
       "12.1":"a x",
-      "14":"a x"
+      "0":"a x"
     },
     "and_chr":{
       "0":"a x"
     },
     "and_ff":{
       "0":"a x"
+    },
+    "ie_mob":{
+      "10":"a x"
     }
   },
   "notes":"Partial support refers to supporting the older specification's \"matchesSelector\" name rather than just \"matches\".",
   "usage_perc_y":0,
-  "usage_perc_a":84.59,
+  "usage_perc_a":80.6,
   "ucprefix":false,
   "parent":"",
   "keywords":" matchesSelector",

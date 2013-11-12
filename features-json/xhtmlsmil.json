@@ -5,12 +5,12 @@
   "status":"unoff",
   "links":[
     {
-      "url":"http://leunen.me/fakesmile/",
-      "title":"JS library to support XHTML+SMIL"
-    },
-    {
       "url":"http://en.wikipedia.org/wiki/XHTML%2BSMIL",
       "title":"Wikipedia"
+    },
+    {
+      "url":"http://leunen.me/fakesmile/",
+      "title":"JS library to support XHTML+SMIL"
     }
   ],
   "bugs":[
@@ -27,7 +27,7 @@
       "8":"a",
       "9":"n",
       "10":"n",
-      "11":"u"
+      "11":"n"
     },
     "firefox":{
       "2":"p",
@@ -53,7 +53,11 @@
       "20":"p",
       "21":"p",
       "22":"p",
-      "23":"p"
+      "23":"p",
+      "24":"p",
+      "25":"p",
+      "26":"p",
+      "27":"p"
     },
     "chrome":{
       "4":"p",
@@ -81,7 +85,10 @@
       "26":"p",
       "27":"p",
       "28":"p",
-      "29":"p"
+      "29":"p",
+      "30":"p",
+      "31":"p",
+      "32":"p"
     },
     "safari":{
       "3.1":"p",
@@ -90,6 +97,7 @@
       "5":"p",
       "5.1":"p",
       "6":"p",
+      "6.1":"p",
       "7":"p"
     },
     "opera":{
@@ -104,7 +112,10 @@
       "11.6":"p",
       "12":"p",
       "12.1":"p",
-      "15":"p"
+      "15":"p",
+      "16":"p",
+      "17":"p",
+      "18":"p"
     },
     "ios_saf":{
       "3.2":"p",
@@ -124,7 +135,8 @@
       "3":"p",
       "4":"p",
       "4.1":"p",
-      "4.2":"p"
+      "4.2-4.3":"p",
+      "4.4":"p"
     },
     "bb":{
       "7":"p",
@@ -137,18 +149,21 @@
       "11.5":"p",
       "12":"p",
       "12.1":"p",
-      "14":"p"
+      "0":"p"
     },
     "and_chr":{
       "0":"p"
     },
     "and_ff":{
       "0":"p"
+    },
+    "ie_mob":{
+      "10":"n"
     }
   },
   "notes":"Internet Explorer supports the W3C proposal HTML+TIME, which is largely the same as XHTML+SMIL",
   "usage_perc_y":0,
-  "usage_perc_a":8.13,
+  "usage_perc_a":9.02,
   "ucprefix":false,
   "parent":"xhtml",
   "keywords":"",

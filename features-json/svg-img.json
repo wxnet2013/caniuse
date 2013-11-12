@@ -5,12 +5,12 @@
   "status":"cr",
   "links":[
     {
-      "url":"http://blog.dholbert.org/2010/10/svg-as-image.html",
-      "title":"Blog post with examples"
-    },
-    {
       "url":"http://www.codedread.com/blog/",
       "title":"Blog with SVGs an images"
+    },
+    {
+      "url":"http://blog.dholbert.org/2010/10/svg-as-image.html",
+      "title":"Blog post with examples"
     }
   ],
   "bugs":[
@@ -58,7 +58,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"y",
@@ -86,7 +90,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"n",
@@ -95,6 +102,7 @@
       "5":"y",
       "5.1":"y",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -109,7 +117,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"a",
@@ -129,7 +140,8 @@
       "3":"y",
       "4":"y",
       "4.1":"y",
-      "4.2":"y"
+      "4.2-4.3":"y",
+      "4.4":"y"
     },
     "bb":{
       "7":"y",
@@ -142,18 +154,21 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"y"
     }
   },
-  "notes":"Partial support in Safari 3.2 refers to buggy behavior with certain SVG images.",
-  "usage_perc_y":84.43,
-  "usage_perc_a":0.02,
+  "notes":"",
+  "usage_perc_y":83.65,
+  "usage_perc_a":0.01,
   "ucprefix":false,
   "parent":"",
   "keywords":"svg-as-img,svg-in-img",

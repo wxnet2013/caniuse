@@ -2,19 +2,15 @@
   "title":"Shared Web Workers",
   "description":"Method of allowing multiple scripts to communicate with a single web worker.",
   "spec":"http://www.w3.org/TR/workers/#shared-workers-introduction",
-  "status":"wd",
+  "status":"cr",
   "links":[
-    {
-      "url":"http://greenido.wordpress.com/2011/11/03/web-workers-part-3-out-of-3-shared-wrokers/",
-      "title":"Blog post"
-    },
-    {
-      "url":"https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-sharedworker",
-      "title":"has.js test"
-    },
     {
       "url":"http://www.sitepoint.com/javascript-shared-web-workers-html5/",
       "title":"Sitepoint article"
+    },
+    {
+      "url":"http://greenido.wordpress.com/2011/11/03/web-workers-part-3-out-of-3-shared-wrokers/",
+      "title":"Blog post"
     }
   ],
   "bugs":[
@@ -31,7 +27,7 @@
       "8":"n",
       "9":"n",
       "10":"n",
-      "11":"u"
+      "11":"n"
     },
     "firefox":{
       "2":"n",
@@ -56,8 +52,12 @@
       "19":"n",
       "20":"n",
       "21":"n",
-      "22":"u",
-      "23":"u"
+      "22":"n",
+      "23":"n",
+      "24":"n",
+      "25":"n",
+      "26":"u",
+      "27":"u"
     },
     "chrome":{
       "4":"y",
@@ -85,7 +85,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"n",
@@ -94,6 +97,7 @@
       "5":"y",
       "5.1":"y",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -108,7 +112,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -116,7 +123,7 @@
       "4.2-4.3":"n",
       "5.0-5.1":"y",
       "6.0-6.1":"y",
-      "7.0":"y"
+      "7.0":"n"
     },
     "op_mini":{
       "5.0-7.0":"n"
@@ -128,7 +135,8 @@
       "3":"n",
       "4":"n",
       "4.1":"n",
-      "4.2":"n"
+      "4.2-4.3":"n",
+      "4.4":"n"
     },
     "bb":{
       "7":"y",
@@ -141,17 +149,20 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"n"
+      "0":"n"
     },
     "and_chr":{
       "0":"n"
     },
     "and_ff":{
       "0":"n"
+    },
+    "ie_mob":{
+      "10":"n"
     }
   },
-  "notes":"",
-  "usage_perc_y":46.33,
+  "notes":"Expected to be supported in Firefox 27.",
+  "usage_perc_y":40.07,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"webworkers",

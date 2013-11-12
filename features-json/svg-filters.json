@@ -5,16 +5,16 @@
   "status":"rec",
   "links":[
     {
-      "url":"http://docs.webplatform.org/wiki/svg/elements/filter",
-      "title":"WebPlatform Docs"
-    },
-    {
       "url":"http://electricbeach.org/?p=950",
       "title":"Experiments with filter effects"
     },
     {
       "url":"http://svg-wow.org/blog/category/filters/",
       "title":"SVG filter demos"
+    },
+    {
+      "url":"http://docs.webplatform.org/wiki/svg/elements/filter",
+      "title":"WebPlatform Docs"
     }
   ],
   "bugs":[
@@ -59,7 +59,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"n",
@@ -87,7 +91,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"n",
@@ -96,6 +103,7 @@
       "5":"n",
       "5.1":"n",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -110,7 +118,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -130,7 +141,8 @@
       "3":"n",
       "4":"n",
       "4.1":"n",
-      "4.2":"n"
+      "4.2-4.3":"n",
+      "4.4":"y"
     },
     "bb":{
       "7":"n",
@@ -143,17 +155,20 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"y"
     }
   },
   "notes":"",
-  "usage_perc_y":70.94,
+  "usage_perc_y":72.99,
   "usage_perc_a":0.08,
   "ucprefix":false,
   "parent":"",

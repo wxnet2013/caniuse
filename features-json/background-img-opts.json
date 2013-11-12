@@ -5,21 +5,21 @@
   "status":"cr",
   "links":[
     {
-      "url":"http://www.standardista.com/css3/css3-background-properties",
-      "title":"Detailed compatibility tables and demos"
+      "url":"http://www.css3files.com/background/",
+      "title":"Information page"
     },
     {
       "url":"https://github.com/louisremi/background-size-polyfill",
-      "title":"jQuery polyfill for IE6-8"
+      "title":"Polyfill for IE7-8"
     },
     {
-      "url":"http://www.css3files.com/background/",
-      "title":"Information page"
+      "url":"http://www.standardista.com/css3/css3-background-properties",
+      "title":"Detailed compatibility tables and demos"
     }
   ],
   "bugs":[
     {
-      "description":"Android 2.1 doesn't appear to honor background-size, only -webkit-background-size, which requires both width and height to be specified."
+      "description":"Android 2.1-2.3 doesn't appear to honor background-size, only -webkit-background-size, which requires both width and height to be specified."
     },
     {
       "description":"Firefox does not support \"local\" value for \r\nbackground-attachment."
@@ -62,7 +62,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"y",
@@ -90,7 +94,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"a",
@@ -99,6 +106,7 @@
       "5":"y",
       "5.1":"y",
       "6":"a",
+      "6.1":"a",
       "7":"a"
     },
     "opera":{
@@ -113,7 +121,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"a",
@@ -127,13 +138,14 @@
       "5.0-7.0":"a"
     },
     "android":{
-      "2.1":"a",
-      "2.2":"y",
-      "2.3":"y",
+      "2.1":"a x",
+      "2.2":"y x",
+      "2.3":"y x",
       "3":"y",
       "4":"y",
       "4.1":"y",
-      "4.2":"y"
+      "4.2-4.3":"y",
+      "4.4":"y"
     },
     "bb":{
       "7":"y",
@@ -146,18 +158,21 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"y"
     }
   },
   "notes":"Partial support in Opera Mini refers to not supporting background sizing or background attachments. Partial support in Safari 6 refers to not supporting background sizing offset from edges syntax.",
-  "usage_perc_y":82.36,
-  "usage_perc_a":4.68,
+  "usage_perc_y":78.07,
+  "usage_perc_a":7.32,
   "ucprefix":false,
   "parent":"",
   "keywords":"",

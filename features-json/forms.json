@@ -5,12 +5,12 @@
   "status":"wd",
   "links":[
     {
-      "url":"http://www.miketaylr.com/code/input-type-attr.html",
-      "title":"HTML5 inputs and attribute support page"
-    },
-    {
       "url":"https://github.com/westonruter/webforms2",
       "title":"Cross-browser JS implementation (based on original spec)"
+    },
+    {
+      "url":"http://www.miketaylr.com/code/input-type-attr.html",
+      "title":"HTML5 inputs and attribute support page"
     }
   ],
   "bugs":[
@@ -58,7 +58,11 @@
       "20":"a",
       "21":"a",
       "22":"a",
-      "23":"a"
+      "23":"a",
+      "24":"a",
+      "25":"a",
+      "26":"a",
+      "27":"a"
     },
     "chrome":{
       "4":"a",
@@ -86,7 +90,10 @@
       "26":"a",
       "27":"a",
       "28":"a",
-      "29":"a"
+      "29":"a",
+      "30":"a",
+      "31":"a",
+      "32":"a"
     },
     "safari":{
       "3.1":"p",
@@ -95,6 +102,7 @@
       "5":"a",
       "5.1":"a",
       "6":"a",
+      "6.1":"a",
       "7":"a"
     },
     "opera":{
@@ -109,7 +117,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"a"
+      "15":"a",
+      "16":"a",
+      "17":"a",
+      "18":"a"
     },
     "ios_saf":{
       "3.2":"n",
@@ -129,7 +140,8 @@
       "3":"n",
       "4":"n",
       "4.1":"n",
-      "4.2":"n"
+      "4.2-4.3":"n",
+      "4.4":"a"
     },
     "bb":{
       "7":"n",
@@ -142,18 +154,21 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"a"
+      "0":"a"
     },
     "and_chr":{
       "0":"a"
     },
     "and_ff":{
       "0":"a"
+    },
+    "ie_mob":{
+      "10":"a"
     }
   },
   "notes":"",
-  "usage_perc_y":7.8,
-  "usage_perc_a":63.17,
+  "usage_perc_y":4.75,
+  "usage_perc_a":65.35,
   "ucprefix":false,
   "parent":"",
   "keywords":"input,datepicker",

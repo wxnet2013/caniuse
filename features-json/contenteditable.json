@@ -27,6 +27,9 @@
     },
     {
       "description":"In Firefox when clicking on contenteditable nested into draggable, cursor is always positioned to the start of editable text. Still not fixed in version 18.0.1."
+    },
+    {
+      "description":"In Internet Explorer contenteditable cannot be applied to the TABLE, COL, COLGROUP, TBODY, TD, TFOOT, TH, THEAD, and TR elements directly, a content editable SPAN, or DIV element can be placed inside the individual table cells (See http://msdn.microsoft.com/en-us/library/ie/ms533690(v=vs.85).aspx)."
     }
   ],
   "categories":[
@@ -66,7 +69,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"y",
@@ -94,7 +101,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"y",
@@ -103,6 +113,7 @@
       "5":"y",
       "5.1":"y",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -117,7 +128,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -137,7 +151,8 @@
       "3":"y",
       "4":"y",
       "4.1":"y",
-      "4.2":"y"
+      "4.2-4.3":"y",
+      "4.4":"y"
     },
     "bb":{
       "7":"y",
@@ -150,17 +165,20 @@
       "11.5":"n",
       "12":"n",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"y"
     }
   },
   "notes":"This support only refers to very basic editing capability, implementations vary significantly on how certain elements can be edited.",
-  "usage_perc_y":90.67,
+  "usage_perc_y":88.37,
   "usage_perc_a":0.09,
   "ucprefix":false,
   "parent":"",

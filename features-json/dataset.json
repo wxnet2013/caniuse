@@ -9,16 +9,16 @@
       "title":"has.js test"
     },
     {
+      "url":"http://www.orangesoda.net/jquery.dataset.html",
+      "title":"jQuery polyfill for dataset support"
+    },
+    {
       "url":"http://html5doctor.com/html5-custom-data-attributes/",
       "title":"HTML5 Doctor article"
     },
     {
       "url":"http://docs.webplatform.org/wiki/html/attributes/data-*",
       "title":"WebPlatform Docs"
-    },
-    {
-      "url":"http://www.orangesoda.net/jquery.dataset.html",
-      "title":"jQuery polyfill for dataset support"
     },
     {
       "url":"http://html5demos.com/dataset",
@@ -39,7 +39,7 @@
       "8":"a",
       "9":"a",
       "10":"a",
-      "11":"a"
+      "11":"y"
     },
     "firefox":{
       "2":"a",
@@ -65,7 +65,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"a",
@@ -93,7 +97,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"a",
@@ -102,6 +109,7 @@
       "5":"a",
       "5.1":"y",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -116,7 +124,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"a",
@@ -136,7 +147,8 @@
       "3":"y",
       "4":"y",
       "4.1":"y",
-      "4.2":"y"
+      "4.2-4.3":"y",
+      "4.4":"y"
     },
     "bb":{
       "7":"y",
@@ -149,18 +161,21 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"a"
     }
   },
   "notes":"All browsers can already use data-* attributes and access them using getAttribute. \"Supported\" refers to accessing the values using the dataset property. Current spec only refers to support on HTML elements, only some browsers also have support for SVG/MathML elements.",
-  "usage_perc_y":65.48,
-  "usage_perc_a":29.88,
+  "usage_perc_y":62.15,
+  "usage_perc_a":32.43,
   "ucprefix":false,
   "parent":"",
   "keywords":"DOMStringMap",

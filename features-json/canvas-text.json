@@ -5,12 +5,12 @@
   "status":"wd",
   "links":[
     {
-      "url":"https://raw.github.com/phiggins42/has.js/master/detect/graphics.js#canvas-text",
-      "title":"has.js test"
-    },
-    {
       "url":"http://code.google.com/p/canvas-text/",
       "title":"Support library"
+    },
+    {
+      "url":"https://raw.github.com/phiggins42/has.js/master/detect/graphics.js#canvas-text",
+      "title":"has.js test"
     },
     {
       "url":"https://developer.mozilla.org/en/Drawing_text_using_a_canvas#Additional_examples",
@@ -25,8 +25,8 @@
     
   ],
   "categories":[
-    "HTML5",
-    "Canvas"
+    "Canvas",
+    "HTML5"
   ],
   "stats":{
     "ie":{
@@ -62,7 +62,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"y",
@@ -90,7 +94,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"p",
@@ -99,6 +106,7 @@
       "5":"y",
       "5.1":"y",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -113,7 +121,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"y",
@@ -133,7 +144,8 @@
       "3":"y",
       "4":"y",
       "4.1":"y",
-      "4.2":"y"
+      "4.2-4.3":"y",
+      "4.4":"y"
     },
     "bb":{
       "7":"y",
@@ -146,17 +158,20 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"y"
     }
   },
   "notes":"",
-  "usage_perc_y":84.89,
+  "usage_perc_y":80.82,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"canvas",

@@ -5,12 +5,12 @@
   "status":"wd",
   "links":[
     {
-      "url":"http://docs.webplatform.org/wiki/apis/file",
-      "title":"WebPlatform Docs"
-    },
-    {
       "url":"https://developer.mozilla.org/en/Using_files_from_web_applications",
       "title":"MDN article"
+    },
+    {
+      "url":"http://docs.webplatform.org/wiki/apis/file",
+      "title":"WebPlatform Docs"
     }
   ],
   "bugs":[
@@ -53,7 +53,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"n",
@@ -81,7 +85,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"n",
@@ -90,6 +97,7 @@
       "5":"n",
       "5.1":"a",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -104,7 +112,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -124,7 +135,8 @@
       "3":"a",
       "4":"a",
       "4.1":"a",
-      "4.2":"a"
+      "4.2-4.3":"a",
+      "4.4":"y"
     },
     "bb":{
       "7":"a",
@@ -137,18 +149,21 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"n"
     }
   },
-  "notes":"Partial support in Safari refers to lacking FileReader support. ",
-  "usage_perc_y":67.99,
-  "usage_perc_a":4.86,
+  "notes":"Partial support in older Safari refers to lacking FileReader support. ",
+  "usage_perc_y":67.73,
+  "usage_perc_a":5.38,
   "ucprefix":false,
   "parent":"",
   "keywords":"FileReader",

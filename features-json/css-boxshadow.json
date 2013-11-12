@@ -5,24 +5,24 @@
   "status":"cr",
   "links":[
     {
-      "url":"http://tests.themasta.com/blogstuff/boxshadowdemo.html",
-      "title":"Demo of various effects"
-    },
-    {
       "url":"http://www.css3files.com/shadow/",
       "title":"Information page"
     },
     {
-      "url":"http://westciv.com/tools/boxshadows/index.html",
-      "title":"Live editor"
+      "url":"https://developer.mozilla.org/En/CSS/-moz-box-shadow",
+      "title":"MDN article"
     },
     {
       "url":"http://docs.webplatform.org/wiki/css/properties/box-shadow",
       "title":"WebPlatform Docs"
     },
     {
-      "url":"https://developer.mozilla.org/En/CSS/-moz-box-shadow",
-      "title":"MDN article"
+      "url":"http://tests.themasta.com/blogstuff/boxshadowdemo.html",
+      "title":"Demo of various effects"
+    },
+    {
+      "url":"http://westciv.com/tools/boxshadows/index.html",
+      "title":"Live editor"
     }
   ],
   "bugs":[
@@ -70,7 +70,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"y x",
@@ -98,7 +102,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"a x",
@@ -107,6 +114,7 @@
       "5":"y x",
       "5.1":"y",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -121,7 +129,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"a x",
@@ -141,7 +152,8 @@
       "3":"a x",
       "4":"y",
       "4.1":"y",
-      "4.2":"y"
+      "4.2-4.3":"y",
+      "4.4":"y"
     },
     "bb":{
       "7":"y x",
@@ -154,18 +166,21 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"y"
     }
   },
   "notes":"Can be partially emulated in older IE versions using the non-standard \"shadow\" filter. Partial support in Safari, iOS Safari and Android Browser refers to missing \"inset\" and blur radius value support.",
-  "usage_perc_y":82.52,
-  "usage_perc_a":2.38,
+  "usage_perc_y":79.27,
+  "usage_perc_a":1.55,
   "ucprefix":false,
   "parent":"",
   "keywords":"box-shadows,boxshadows,box shadow,shaow",

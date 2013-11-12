@@ -5,8 +5,16 @@
   "status":"cr",
   "links":[
     {
+      "url":"http://muddledramblings.com/table-of-css3-border-radius-compliance",
+      "title":"Detailed compliance table"
+    },
+    {
       "url":"http://css3pie.com/",
-      "title":"Polyfill for that includes border-radius"
+      "title":"Polyfill which includes border-radius"
+    },
+    {
+      "url":"http://docs.webplatform.org/wiki/css/properties/border-radius",
+      "title":"WebPlatform Docs"
     },
     {
       "url":"http://border-radius.com",
@@ -15,14 +23,6 @@
     {
       "url":"http://www.css3files.com/border/#borderradius",
       "title":"Information page"
-    },
-    {
-      "url":"http://docs.webplatform.org/wiki/css/properties/border-radius",
-      "title":"WebPlatform Docs"
-    },
-    {
-      "url":"http://muddledramblings.com/table-of-css3-border-radius-compliance",
-      "title":"Detailed compliance table"
     }
   ],
   "bugs":[
@@ -31,6 +31,9 @@
     },
     {
       "description":"Border-radius does not work on fieldset elements in IE9."
+    },
+    {
+      "description":"The stock browser on the Samsung Galaxy S4 with Android 4.2 does not support the \"border-radius\" shorthand property but does support the long-hand properties for each corner like \"border-top-left-radius\"."
     }
   ],
   "categories":[
@@ -70,7 +73,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"y x",
@@ -98,7 +105,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"y x",
@@ -107,6 +117,7 @@
       "5":"y",
       "5.1":"y",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -121,7 +132,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"y x",
@@ -141,7 +155,8 @@
       "3":"y",
       "4":"y",
       "4.1":"y",
-      "4.2":"y"
+      "4.2-4.3":"y",
+      "4.4":"y"
     },
     "bb":{
       "7":"y",
@@ -154,18 +169,21 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"y"
     }
   },
   "notes":"",
-  "usage_perc_y":84.98,
-  "usage_perc_a":0.03,
+  "usage_perc_y":80.91,
+  "usage_perc_a":0.02,
   "ucprefix":false,
   "parent":"",
   "keywords":"roundedcorners, border radius,-moz-border-radius",

@@ -5,12 +5,12 @@
   "status":"rec",
   "links":[
     {
-      "url":"http://docs.webplatform.org/wiki/css/properties/position",
-      "title":"WebPlatform Docs"
-    },
-    {
       "url":"http://www.css-101.org/fixed-positioning/05.php",
       "title":"Workaround for IE6"
+    },
+    {
+      "url":"http://docs.webplatform.org/wiki/css/properties/position",
+      "title":"WebPlatform Docs"
     },
     {
       "url":"http://bradfrostweb.com/blog/mobile/fixed-position/",
@@ -19,13 +19,7 @@
   ],
   "bugs":[
     {
-      "description":"Clicks will \"bleed\" though to underlying input elements on android &lt; 3. <a href=\"http://code.google.com/p/android/issues/detail?id=6721\">See bug</a>."
-    },
-    {
-      "description":"Looks buggy on Android Browser v3.1 on HTC Legend "
-    },
-    {
-      "description":"position:fixed breaks in chrome (all current versions) when using hardware-accelerated rendering, depending on your graphics card."
+      "description":"in iOS Safari 5-7, position:fixed will move to center of window with focus event on child text input field."
     }
   ],
   "categories":[
@@ -65,7 +59,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"y",
@@ -93,7 +91,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"y",
@@ -102,6 +103,7 @@
       "5":"y",
       "5.1":"y",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -116,7 +118,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -136,7 +141,8 @@
       "3":"y",
       "4":"y",
       "4.1":"y",
-      "4.2":"y"
+      "4.2-4.3":"y",
+      "4.4":"y"
     },
     "bb":{
       "7":"y",
@@ -149,18 +155,21 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"y"
     }
   },
   "notes":"Only works in Android 2.2+ by using the following meta tag: &lt;meta name=\"viewport\" content=\"width=device-width, user-scalable=no\">. Partial support in iOS Safari refers to <a href=\"http://remysharp.com/2012/05/24/issues-with-position-fixed-scrolling-on-ios/\">buggy behavior</a>.",
-  "usage_perc_y":83.69,
-  "usage_perc_a":9.14,
+  "usage_perc_y":84.35,
+  "usage_perc_a":5.39,
   "ucprefix":false,
   "parent":"",
   "keywords":"",

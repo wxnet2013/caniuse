@@ -5,16 +5,16 @@
   "status":"wd",
   "links":[
     {
+      "url":"http://html5doctor.com/measure-up-with-the-meter-tag/",
+      "title":"HTML5 Doctor on meter element "
+    },
+    {
       "url":"http://peter.sh/examples/?/html/meter-progress.html",
       "title":"Examples of progress and meter elements"
     },
     {
       "url":"http://dev.opera.com/articles/view/new-form-features-in-HTML5/#newoutput",
       "title":"Dev.Opera article"
-    },
-    {
-      "url":"http://html5doctor.com/measure-up-with-the-meter-tag/",
-      "title":"HTML5 Doctor on meter element "
     },
     {
       "url":"http://docs.webplatform.org/wiki/html/elements/progress",
@@ -61,7 +61,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"n",
@@ -89,7 +93,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"n",
@@ -98,6 +105,7 @@
       "5":"n",
       "5.1":"n",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -112,7 +120,10 @@
       "11.6":"y",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -120,7 +131,7 @@
       "4.2-4.3":"n",
       "5.0-5.1":"n",
       "6.0-6.1":"n",
-      "7.0":"u"
+      "7.0":"a"
     },
     "op_mini":{
       "5.0-7.0":"n"
@@ -132,7 +143,8 @@
       "3":"n",
       "4":"n",
       "4.1":"n",
-      "4.2":"n"
+      "4.2-4.3":"n",
+      "4.4":"y"
     },
     "bb":{
       "7":"y",
@@ -145,18 +157,21 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"a"
     }
   },
-  "notes":"Partial support in Firefox 6-15 and IE10 refers to supporting the progress element, but not the meter element.",
-  "usage_perc_y":52.62,
-  "usage_perc_a":9.33,
+  "notes":"Partial support in Firefox 6-15, IE10 & iOS7 Safari refers to supporting the progress element, but not the meter element. iOS7 Safari also does not support \"indeterminate\" progress elements.",
+  "usage_perc_y":52.21,
+  "usage_perc_a":14.58,
   "ucprefix":false,
   "parent":"forms",
   "keywords":"",

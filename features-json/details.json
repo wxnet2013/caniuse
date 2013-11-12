@@ -5,8 +5,8 @@
   "status":"wd",
   "links":[
     {
-      "url":"http://mathiasbynens.be/notes/html5-details-jquery",
-      "title":"jQuery fallback script"
+      "url":"http://docs.webplatform.org/wiki/html/elements/details",
+      "title":"WebPlatform Docs"
     },
     {
       "url":"https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-details",
@@ -17,8 +17,8 @@
       "title":"HTML5 Doctor article"
     },
     {
-      "url":"http://docs.webplatform.org/wiki/html/elements/details",
-      "title":"WebPlatform Docs"
+      "url":"http://mathiasbynens.be/notes/html5-details-jquery",
+      "title":"jQuery fallback script"
     },
     {
       "url":"https://gist.github.com/370590",
@@ -39,7 +39,7 @@
       "8":"p",
       "9":"n",
       "10":"n",
-      "11":"u"
+      "11":"n"
     },
     "firefox":{
       "2":"n",
@@ -65,7 +65,11 @@
       "20":"p",
       "21":"p",
       "22":"p",
-      "23":"p"
+      "23":"p",
+      "24":"p",
+      "25":"p",
+      "26":"p",
+      "27":"p"
     },
     "chrome":{
       "4":"p",
@@ -93,7 +97,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"p",
@@ -102,6 +109,7 @@
       "5":"p",
       "5.1":"p",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -116,7 +124,10 @@
       "11.6":"n",
       "12":"n",
       "12.1":"n",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"p",
@@ -136,7 +147,8 @@
       "3":"p",
       "4":"y",
       "4.1":"y",
-      "4.2":"y"
+      "4.2-4.3":"y",
+      "4.4":"y"
     },
     "bb":{
       "7":"p",
@@ -149,17 +161,20 @@
       "11.5":"p",
       "12":"p",
       "12.1":"p",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"n"
+    },
+    "ie_mob":{
+      "10":"n"
     }
   },
   "notes":"",
-  "usage_perc_y":45.95,
+  "usage_perc_y":44.5,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",

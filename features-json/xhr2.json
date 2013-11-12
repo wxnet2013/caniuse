@@ -9,26 +9,29 @@
       "title":"Article with file upload demo"
     },
     {
-      "url":"http://docs.webplatform.org/wiki/apis/xhr/objects/XMLHttpRequest",
-      "title":"WebPlatform Docs"
-    },
-    {
       "url":"https://developer.mozilla.org/en/XMLHttpRequest/FormData",
       "title":"MDN article on FormData"
     },
     {
       "url":"https://github.com/3nr1c/jUri.js",
       "title":"Polyfill for FormData object"
+    },
+    {
+      "url":"http://docs.webplatform.org/wiki/apis/xhr/XMLHttpRequest",
+      "title":"WebPlatform Docs"
     }
   ],
   "bugs":[
     {
-      "description":"In both Firefox 9 and Chrome 16, xhr.timeout and xhr.ontimeout don't appear to be supported."
+      "description":"xhr.timeout and xhr.ontimeout are supported in Chrome 29+ and Firefox 12+."
+    },
+    {
+      "description":"Firefox 3.5 and 3.6 partial support refers to only including support for the progress event."
     }
   ],
   "categories":[
-    "JS API",
-    "DOM"
+    "DOM",
+    "JS API"
   ],
   "stats":{
     "ie":{
@@ -64,7 +67,11 @@
       "20":"y",
       "21":"y",
       "22":"y",
-      "23":"y"
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y"
     },
     "chrome":{
       "4":"u",
@@ -92,7 +99,10 @@
       "26":"y",
       "27":"y",
       "28":"y",
-      "29":"y"
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y"
     },
     "safari":{
       "3.1":"n",
@@ -101,6 +111,7 @@
       "5":"y",
       "5.1":"y",
       "6":"y",
+      "6.1":"y",
       "7":"y"
     },
     "opera":{
@@ -115,7 +126,10 @@
       "11.6":"n",
       "12":"y",
       "12.1":"y",
-      "15":"y"
+      "15":"y",
+      "16":"y",
+      "17":"y",
+      "18":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -135,7 +149,8 @@
       "3":"y",
       "4":"y",
       "4.1":"y",
-      "4.2":"y"
+      "4.2-4.3":"y",
+      "4.4":"y"
     },
     "bb":{
       "7":"y",
@@ -148,18 +163,21 @@
       "11.5":"n",
       "12":"y",
       "12.1":"y",
-      "14":"y"
+      "0":"y"
     },
     "and_chr":{
       "0":"y"
     },
     "and_ff":{
       "0":"y"
+    },
+    "ie_mob":{
+      "10":"y"
     }
   },
-  "notes":"Firefox 3.5 and 3.6 partial support refers to only including support for the progress event.",
-  "usage_perc_y":73.5,
-  "usage_perc_a":0.42,
+  "notes":"",
+  "usage_perc_y":73.51,
+  "usage_perc_a":0.35,
   "ucprefix":false,
   "parent":"",
   "keywords":"formdata",
